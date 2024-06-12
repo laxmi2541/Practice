@@ -1,0 +1,13 @@
+print("Enter a weekday(1-7):")
+day=int(input())
+weekday={
+    1:"sunday",
+    2:"monday",
+    3:"tuesday",
+    4:"wednesday",
+    5:"thursday",
+    6:"friday",
+    7:"saturday",
+}
+result=weekday.get(day,'nothing')
+print(result)
