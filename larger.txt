@@ -1,0 +1,9 @@
+print('Enter two numbers ')
+a=int(input())
+b=int(input())
+if(a==b):.555554.
+    print('Both numbers are equal')
+elif(a>b):
+    print(a,' is larger than ',b)
+else:
+    print(b,' is larger than ',a)
