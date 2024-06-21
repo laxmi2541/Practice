@@ -1,0 +1,10 @@
+print("Enter two numbers")
+a=int(input())
+b=int(input())
+x=a
+y=b
+while b!=0:
+    rem=a%b
+    a=b
+    b=rem
+    print("GCD of",x,"and",y,"is",a)
